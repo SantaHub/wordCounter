@@ -1,15 +1,12 @@
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
 public class WordCounter {
 
     public static void main(String args[]) {
-        String test = "Hey how are you you are how";
         WordCounter wordCounter = new WordCounter();
 
         String data = wordCounter.readFile("src/contentFile.txt");
